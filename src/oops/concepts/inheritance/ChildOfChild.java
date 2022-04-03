@@ -14,6 +14,7 @@ public class ChildOfChild extends Child {
      child.childsNs();
      ChildOfChild childOfChild= new ChildOfChild();
      childOfChild.childOdChildNs();
+     //jbhsdfhbsdf
     }
 
     public static void childOdChild(){}
