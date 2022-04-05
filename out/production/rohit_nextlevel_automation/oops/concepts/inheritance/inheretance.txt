@@ -5,4 +5,3 @@ multi level inheritance= parent-> child-> childChild -> childchildchild
 multiple inheritance = not allowed in java because it confuses (because possibility is there, other classes contains same variables with same name)
 
 hybrid inheritance= inter-casting of marriage
-
