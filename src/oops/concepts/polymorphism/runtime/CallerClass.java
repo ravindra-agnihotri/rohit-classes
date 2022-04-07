@@ -20,6 +20,7 @@ public class CallerClass {
         waterTank.storeWater();
         waterTank.serveWater();
         waterTank.unique();
+        waterTank.unique();
 
 
 

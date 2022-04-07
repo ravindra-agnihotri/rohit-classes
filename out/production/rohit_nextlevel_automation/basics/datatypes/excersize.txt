@@ -1,0 +1,2 @@
+Create 5 classes each containing 4 static methods and 6 mom static methods
+and cross call them

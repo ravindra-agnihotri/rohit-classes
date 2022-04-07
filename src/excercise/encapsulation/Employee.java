@@ -9,17 +9,15 @@ public class Employee {
         return employeeName;
     }
     public void setEmployeeName(String employeeName) {
+
         this.employeeName = employeeName;
     }
-
-
     public int getEmployeeID() {
         return employeeID;
     }
     public void setEmployeeID(int employeeID) {
         this.employeeID = employeeID;
     }
-
     public String getEmployeeTeam() {
         return employeeTeam;
     }
