@@ -4,11 +4,11 @@ public class Lenovo {
 
     String name;
 
-    public Lenovo() {
-    }
+//    public Lenovo() {
+//    }
 
     public Lenovo(String a) {
-        name = a;
+       this.name = a;
     }
 
     public void ram(int ram) {
