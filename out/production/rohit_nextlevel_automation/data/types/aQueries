@@ -1,0 +1,42 @@
+(1) Abstraction--
+1. Is Method Overloading possible in Abstract class? If yes how?
+-> YES (Using SAME Method and DIFFERENT Parameters)
+2. Is Method Overriding possible in Abstract class? If yes how?
+-> YES (Using SAME Method and SAME Parameters)
+Steps:
+Create 1 Abstract Class having Abstract Method,
+Create another normal class extends above Abstract Class,
+Create 1 parameterized method in normal class for Overloading
+Create 1 non-parameterized method in normal class for Overriding (inheritance is required)
+
+(NOTE: Here all method name must be same)
+------------------------------------------------------------------------------------
+3. Is Constructor Overloading possible in Abstract class? If yes how?
+-> YES (Using SAME Method and DIFFERENT Parameters)
+4. Is Constructor Overriding possible in Abstract class? If yes how?
+-> YES (Using SAME Method and SAME Parameters)
+
+---->>>>> Using SUPER keyword.
+
+(NOTE: Abstract classes can't be directly instantiated, only extended, so the use is therefore always from a subclass's constructor)
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+(2) Interface--
+1. Is Method Overloading possible in Interface? If yes how?
+-> YES (Using SAME Method and DIFFERENT Parameters)
+2. Is Method Overriding possible in Interface? If yes how?
+-> YES
+------------------------------------------------------------------------------------
+3. Is Constructor Overloading possible in Interface? If yes how?
+->
+4. Is Constructor Overriding possible in Interface? If yes how?
+->
+
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+(Q)Why can an abstract class have a constructor in Java?
+-> Now if we say we can not create an instance of an abstract class then why does Java adds a constructor in the abstract class.
+One of the reasons which make sense is when any class extends an abstract class, the constructor of sub-class will invoke the constructor of the super-class either implicitly or explicitly.
+This chaining of constructors is one of the reasons abstract classes can have constructors in Java.
+
+

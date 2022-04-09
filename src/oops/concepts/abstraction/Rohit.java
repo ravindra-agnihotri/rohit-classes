@@ -6,8 +6,8 @@ public class Rohit extends TeamLead implements Manager{
        TeamLead.resign();
        TeamLead teamLead= new Rohit("ssd");
        TeamLead.cpa();
-
-
+       teamLead.execution();
+       teamLead.testcaseWriting();
        }
 
     public Rohit(String aa) {
@@ -29,7 +29,7 @@ public class Rohit extends TeamLead implements Manager{
 
     }
 
-   /* @Override
+   /*@Override
     public void cpa() {
         System.out.println("CPA rohit");
     }*/
